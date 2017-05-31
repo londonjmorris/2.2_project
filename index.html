@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <h1>Sign up</h1>
+      <form>
+        <fieldset>
+          <ul>
+            <li>
+              <input type="radio" checked id="admin" name="account" value="admin">
+              <label for="admin">admin</label>
+
+            </li>
+            <li>
+              <input type="radio" id="personal" name="account" value="personal">
+              <label for="personal">personal</label>
+
+            </li>
+            <li>
+              <input type="radio" id="guest" name="account" value="guest">
+              <label for="guest">guest</label>
+
+            </li>
+          </ul>
+        </fieldset>
+
+          <div class="textinput">
+            <div class="textinputdiv">
+              <label for="username">
+                <div>name</div>
+                <input id="username" type="text" name="username">
+              </label>
+              <label for="password">
+                <div>password</div>
+                <input id="password" type="text" name="password">
+              </label>
+            </div>
+
+            <div class="textinputdiv">
+              <label for="emailaddress">
+                <div>email address</div>
+                <input id="emailaddress" type="text" name="emailaddress">
+              </label>
+              <label for="confirm">
+                <div>confirm password</div>
+                <input id="confirm" type="text" name="confirm">
+              </label>
+            </div>
+
+            </div>
+            <div class="formsubmit">
+              <label for="profilepic" class="profilepic">
+                <div>profile picture</div>
+                <input type="file" name="file" id="file" accept="image/*" multiple>
+              </label>
+              <button type="submit">
+                sign up
+              </button>
+            </div>
+
+
+      </form>
+    </section>
+  </div>
+</body>
+</html>

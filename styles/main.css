@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+  width:60%;
+  height:500px;
+}
+
+h1{
+  text-align:center;
+}
+
+fieldset{
+  border-style: none;
+}
+
+ul{
+  padding:0;
+  display:flex;
+  justify-content:space-around;
+  list-style:none;
+  text-indent: 0;
+}
+
+.textinput{
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.textinputdiv{
+  width:43%;
+
+}
+
+.textinputdiv label{
+  line-height: 30px;
+}
+
+.textinput input{
+  width:90%;
+  height:30px;
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+
+button{
+  width:43%;
+  background-color: white;
+  height:35px;
+  border:2px solid black;
+  margin-top:20px;
+  font-size:16px;
+  border-radius: 4px;
+}
+
+.profilepic{
+  width:43%;
+}
+
+.formsubmit{
+  display:flex;
+  justify-content: space-around;
+
+}
